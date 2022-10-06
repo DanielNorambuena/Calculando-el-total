@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    background-color: #535353;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 15px 0px 25px 0px;
+    margin: 1%;
+    color: white;
+}
+
+.card-img {
+    width: 75%;
+}
+
+.title,
+.precio {
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    margin: 3px;
+    padding: 3px;
+}
+
+.btn {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5%;
+}
+
+.btn:hover {
+    background-color: #1d1d1d;
+    transition: 500ms;
+}
+
+#resultado-color {
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px solid #e7e7e7;
+    margin: 10px;
+}
